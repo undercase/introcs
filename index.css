@@ -93,30 +93,25 @@
   font-weight: normal;
 }
 
-.steps h1.ui.header:first-child {
-  margin-bottom: 0;
-}
-
-.steps h1.ui.header:last-child {
-  color: #000;
-  margin-top: 0;
+.steps h2.ui.header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .steps .container {
   max-width: 700px !important;
 }
 
-.steps .three.wide.column {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .steps .num {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  left: -140px;
+  width: 120px;
+  height: 120px;
 
-  font-size: 4rem;
+  font-size: 5rem;
 
   display: flex;
   align-items: center;
