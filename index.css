@@ -83,3 +83,49 @@
 .description table th, .description table td {
   color: #1DCF92 !important;
 }
+
+.steps {
+  background: #fff;
+  color: #1DCF92;
+}
+
+.steps h1.ui.header {
+  font-weight: normal;
+}
+
+.steps h1.ui.header:first-child {
+  margin-bottom: 0;
+}
+
+.steps h1.ui.header:last-child {
+  color: #000;
+  margin-top: 0;
+}
+
+.steps .container {
+  max-width: 700px !important;
+}
+
+.steps .three.wide.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps .num {
+  width: 100px;
+  height: 100px;
+
+  font-size: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 3px solid #1DCF92;
+  border-radius: 100%;
+}
+
+.steps h2.ui.header {
+  font-weight: normal;
+}
