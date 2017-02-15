@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Class Two</title>
+  <link rel="shortcut icon" type="image/x-ico" href="favicon.png">
+
+  <script type="text/javascript" src="vendor/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="vendor/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="vendor/semantic.min.css">
+
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="masthead section">
+    <div class="ui container">
+      <img src="img/logo.jpg" alt="logo" class="ui image">
+      <h1 class="ui header">Introduction to Computer Science</h1>
+      <h3 class="ui header">Class Two: Intermediate Web Development</h3>
+    </div>
+  </div>
+  <div class="steps section">
+    <h1 class="ui centered header">Curriculum</h1>
+    <div class="ui equal height container grid">
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Open up your project in CodePen</h2>
+        <a target="_blank" href="https://www.facebook.com/groups/TAMS2018/permalink/1474034445954291/" class="ui centered button">Projects</a>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Styling elements on hover</h2>
+        <pre>
+          <code>
+            h1 {
+              color: red;
+            }
+
+            h1:hover {
+              color: blue;
+            }
+          </code>
+        </pre>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Add some Animations</h2>
+        <pre>
+          <code>
+            h1 {
+              opacity: 0.5;
+              transition: opacity 1s ease-in-out;
+              background-color: black;
+            }
+
+            h1:hover {
+              opacity: 1;
+            }
+          </code>
+        </pre>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Add jQuery</h2>
+        <a target="_blank" href="https://blog.codepen.io/documentation/editor/using-javascript-libraries/" class="ui centered jquery button">Guide to add jQuery</a>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Add interactivity with JavaScript</h2>
+        <pre>
+          <code>
+            $('h1').click(function() {
+              $(this).css('color', 'red');
+            });
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
