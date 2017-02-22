@@ -8,5 +8,10 @@ $(document).ready(function() {
     onBottomVisible: function(calculations) {
       $(this).transition('scale');
     }
-  })
+  });
+  $('.steps .aspect').hover(function() {
+    $(this).children('pre').stop().slideDown();
+  }, function() {
+    $(this).children('pre').stop().slideUp();
+  });
 });
