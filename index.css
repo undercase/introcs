@@ -102,8 +102,7 @@
   width: 100%;
 }
 
-.steps ul {
-  list-style: none;
+.steps .ui.list {
   text-align: center;
   font-size: 1.5rem;
 }
