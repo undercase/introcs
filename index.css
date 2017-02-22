@@ -94,7 +94,7 @@
   font-weight: normal;
 }
 
-.steps h2.ui.header {
+.steps h2.ui.header, .steps h4.ui.header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
