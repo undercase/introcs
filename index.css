@@ -94,7 +94,7 @@
   font-weight: normal;
 }
 
-.steps h2.ui.header, .steps h4.ui.header {
+.steps h2.ui.header, .steps h3.ui.header, .steps h4.ui.header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -135,6 +135,12 @@
   background: #1DCF92;
   color: white;
   margin: auto;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.steps .row a.button:hover {
+  opacity: 1;
 }
 
 .steps .row a.jquery.button {
@@ -147,6 +153,11 @@
 
 .steps h2.ui.header {
   font-weight: normal;
+}
+
+.steps h3.ui.header {
+  font-weight: 300;
+  font-size: 1.4rem;
 }
 
 .next, .prev{

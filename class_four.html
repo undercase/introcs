@@ -28,8 +28,59 @@
         Next Class
       </a>
     </div>
-    <div class="steps section">
-      <h1 class="ui centered header">Coming soon...</h1>
+  </div>
+  <div class="steps section">
+    <h1 class="ui centered header">Curriculum</h1>
+    <div class="ui equal height container grid">
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Open up a Python Editor</h2>
+        <a href="https://repl.it/languages/python3" target="_blank" class="ui centered button">Let's go!</a>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Functions</h2>
+        <pre>
+          <code>
+            def printhello():
+              print("Hello")
+          </code>
+        </pre>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Functions with Arguments</h2>
+        <pre>
+          <code>
+            def sayhi(name):
+              print("Hello, " + name)
+
+            sayhi("thomas")
+            sayhi("justin")
+            sayhi("rick")
+          </code>
+        </pre>
+      </div>
+      <div class="row transition hidden">
+        <h2 class="ui centered header">Rock Paper Scissors</h2>
+        <h3 class="ui centered header">Your task: write a function to determine the winner</h3>
+        <pre>
+          <code>
+            # Keep tally of how many times each side has won
+            sideOneWins = 0
+            sideTwoWins = 0
+            # Loop forever
+            while True:
+              # Ask each side for its choice
+              sideOneChoice = input("Choose rock, paper, or scissors: ")
+              sideTwoChoice = input("Choose rock, paper, or scissors: ")
+              # Determine who won
+              if winner(sideOneCoice, sideTwoChoice) == "side one":
+                sideOneWins = sideOneWins + 1
+                print("Side one won!")
+              else:
+                sideTwoWins = sideTwoWins + 1
+                print("Side two one!")
+          </code>
+        </pre>
+      </div>
     </div>
   </div>
 </body>
